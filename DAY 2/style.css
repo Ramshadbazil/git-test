@@ -1,0 +1,31 @@
+.heding-1 {
+    font-family:arial;
+    color: red;
+}
+
+.orange-color{
+    color: orange;
+}
+
+.uppercase{
+    text-transform: uppercase;
+
+}
+
+h2{
+    font-family: impact;
+    color: blue;
+    font-size: 60px;
+}
+
+p{
+    text-align: center;
+    text-transform: uppercase;
+}
+#header{
+    background-color: aqua;
+}
+#header a{
+    background-color: yellow;
+}
+ 

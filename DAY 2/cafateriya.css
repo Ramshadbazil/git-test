@@ -1,0 +1,88 @@
+/* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.container{
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+header .navbar{
+    display: flex;
+
+}
+header .navbar a{
+    display:block;
+    text-decoration:none;
+    color: black;
+    margin: 0 10px;
+    font-size: 22px;
+}
+.hero-section img{
+    width:85%;
+    height: 90%;
+    padding-left: 350px;
+    
+
+}
+.hero-section{
+    position: relative;
+    height: 85vh ;
+    overflow:hidden ;
+
+}
+
+.hero-section .hero-section-content{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    max-width:450px;
+    background-color:white;
+    padding: 30px 60px;
+    outline: 1px solid white;
+    display: flex;  
+    flex-direction:column; 
+    justify-content: center; 
+    
+}
+
+.gallery-section h2{
+    margin-bottom: 30px;
+    
+}
+
+.gallery-section .gallery-list{
+    display: flex;
+    gap:30px ;
+    flex-wrap:wrap ;
+  
+}   
+.gallery-section .gallery-list li {
+    flex: 1 1 200px;
+    
+}
+
+.gallery-section .gallery-list li img{
+  width: 100%;
+  object-fit: cover;
+  
+
+}
